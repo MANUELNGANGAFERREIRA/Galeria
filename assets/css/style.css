@@ -1,22 +1,21 @@
 .section-img{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-   
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    
 }
+
 span{
     font-family:'Courier New', Courier, monospace;
 }
 .card-img{
-    display: flex;
-    flex-direction: column;
     position: relative; 
     width: 34vh;
+    margin: 44px;
 }
 img{
     width: 100%;
 }
+
 span{
     margin: 15px 0px 0px 0px;
 }
